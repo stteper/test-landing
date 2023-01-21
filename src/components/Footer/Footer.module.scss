@@ -1,0 +1,17 @@
+@import 'src/styles/media';
+
+.siteFooter {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 200px;
+  margin-top: 80px;
+  padding-bottom: 18px;
+  color: var(--white);
+  background-color: var(--black);
+
+  @include media-breakpoint-up(md) {
+    margin-top: 209px;
+  }
+}

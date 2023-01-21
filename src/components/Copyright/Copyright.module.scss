@@ -1,0 +1,8 @@
+@import '/src/styles/typography';
+
+.copyRight {
+  @include typography-text-2;
+
+  display: inline-block;
+  color: var(--white);
+}

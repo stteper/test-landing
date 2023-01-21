@@ -1,0 +1,36 @@
+@import '/src/styles/media';
+@import '/src/styles/typography';
+
+.phoneButton {
+  @include typography-text-3;
+
+  position: relative;
+  color: var(--white);
+  text-decoration: none;
+  border: none;
+  outline: none;
+  opacity: var(--call-opacity, 1);
+  transition: opacity var(--transition);
+
+  &:hover {
+    --call-opacity: 0.7;
+  }
+
+  @include media-breakpoint-down(sm) {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    color: transparent;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 24px;
+      height: 24px;
+      background: center center no-repeat url('./images/call.png');
+      content: '';
+    }
+  }
+}

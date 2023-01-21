@@ -1,0 +1,17 @@
+@import '/src/styles/media';
+
+.siteHeader {
+  display: flex;
+  height: 60px;
+  background: var(--gradient-black);
+
+  @include media-breakpoint-up(sm) {
+    height: 100px;
+  }
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

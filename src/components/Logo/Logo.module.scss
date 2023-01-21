@@ -1,0 +1,21 @@
+@import '/src/styles/media';
+
+.logo {
+  border: none;
+  outline: none;
+  opacity: var(--logo-opacity, 1);
+  transition: opacity var(--transition);
+
+  &:hover {
+    --logo-opacity: 0.7;
+  }
+}
+
+.logoImage {
+  width: auto;
+  height: 18px;
+
+  @include media-breakpoint-up(sm) {
+    height: 38px;
+  }
+}
