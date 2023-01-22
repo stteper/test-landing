@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Header, Footer, LeftImageBlock, RightImageBlock, Slider } from '../../components'
-
+import { images } from '../../data/imagesList'
 export const MainPage: React.FC = () => {
   return (
     <>
@@ -32,6 +32,8 @@ export const MainPage: React.FC = () => {
         </p>
       </RightImageBlock>
 
+      <Slider images={images} />
+
       <LeftImageBlock title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} image={'/images/julia-1.jpg'}>
         <p>
           Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -56,8 +58,6 @@ export const MainPage: React.FC = () => {
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </p>
       </RightImageBlock>
-
-      <Slider />
 
       <Footer />
     </>

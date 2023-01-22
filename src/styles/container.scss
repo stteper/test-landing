@@ -1,7 +1,7 @@
 @import 'media';
 
 :root {
-  --container-width: 90%;
+  --container-width: 90vw;
   --x-distance: calc((100vw - var(--container-width)) / 2);
   --column-gap: 40px;
 

@@ -1,3 +1,50 @@
-.rightImageBlock {
+@import 'src/styles/media';
+
+.slider {
+  --slider-gap: 10px;
+  --slides: 1;
   display: flex;
+
+  max-width: 100%;
+  overflow-x: auto;
+  scroll-behavior: unset;
+
+  @include media-breakpoint-up(md) {
+    overflow-x: hidden;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @include media-breakpoint-up(sm) {
+    --slider-gap: 20px;
+    --slides: 2;
+  }
+
+  @include media-breakpoint-up(lg) {
+    --slider-gap: 30px;
+    --slides: 3;
+  }
+
+  @include media-breakpoint-up(xl) {
+    --slider-gap: 40px;
+    --slides: 4;
+  }
+}
+
+.slidesContainer {
+  display: flex;
+  gap: var(--slider-gap);
+  padding: 0 var(--x-distance);
+}
+
+.sliderImageWrapper {
+  display: flex;
+  width: calc((100vw - var(--x-distance) - var(--slides) * var(--slider-gap)) / (0.5 + var(--slides)));
+}
+
+.sliderImage {
+  display: flex;
+  max-width: 100%;
 }
