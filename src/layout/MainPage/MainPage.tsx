@@ -9,7 +9,7 @@ export const MainPage: React.FC = () => {
 
       <HeadLine level={1} text={'ut aliquip ex ea commodo consequat'} />
 
-      <LeftImageBlock title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} image={'/images/julia-2.jpg'}>
+      <LeftImageBlock title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} image={'images/julia-2.jpg'}>
         <p>
           Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
@@ -20,10 +20,7 @@ export const MainPage: React.FC = () => {
         </p>
       </LeftImageBlock>
 
-      <RightImageBlock
-        title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-        image={'/images/taisiia-1.jpg'}
-      >
+      <RightImageBlock title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} image={'images/taisiia-1.jpg'}>
         <p>
           Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
@@ -40,7 +37,7 @@ export const MainPage: React.FC = () => {
 
       <HeadLine level={2} text={'ut aliquip ex ea commodo consequat'} />
 
-      <LeftImageBlock title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} image={'/images/julia-1.jpg'}>
+      <LeftImageBlock title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} image={'images/julia-1.jpg'}>
         <p>
           Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
@@ -51,10 +48,7 @@ export const MainPage: React.FC = () => {
         </p>
       </LeftImageBlock>
 
-      <RightImageBlock
-        title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-        image={'/images/taisiia-2.jpg'}
-      >
+      <RightImageBlock title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} image={'images/taisiia-2.jpg'}>
         <p>
           Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
