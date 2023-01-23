@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca81537f.css",
-    "main.js": "/static/js/main.b1de4bf7.js",
-    "static/js/787.5daf3e46.chunk.js": "/static/js/787.5daf3e46.chunk.js",
-    "static/media/Roboto-Regular.woff2": "/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
-    "static/media/OrchideaPro-Medium.woff2": "/static/media/OrchideaPro-Medium.c59499aeab18220e5d08.woff2",
-    "static/media/Manrope-Medium.woff2": "/static/media/Manrope-Medium.9cccfee0f8d3153ae547.woff2",
-    "index.html": "/index.html",
-    "main.ca81537f.css.map": "/static/css/main.ca81537f.css.map",
-    "main.b1de4bf7.js.map": "/static/js/main.b1de4bf7.js.map",
-    "787.5daf3e46.chunk.js.map": "/static/js/787.5daf3e46.chunk.js.map"
+    "main.css": "/test-landing/static/css/main.682774ed.css",
+    "main.js": "/test-landing/static/js/main.77ec5959.js",
+    "static/js/787.5daf3e46.chunk.js": "/test-landing/static/js/787.5daf3e46.chunk.js",
+    "static/media/Roboto-Regular.woff2": "/test-landing/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
+    "static/media/OrchideaPro-Medium.woff2": "/test-landing/static/media/OrchideaPro-Medium.c59499aeab18220e5d08.woff2",
+    "static/media/Manrope-Medium.woff2": "/test-landing/static/media/Manrope-Medium.9cccfee0f8d3153ae547.woff2",
+    "index.html": "/test-landing/index.html",
+    "main.682774ed.css.map": "/test-landing/static/css/main.682774ed.css.map",
+    "main.77ec5959.js.map": "/test-landing/static/js/main.77ec5959.js.map",
+    "787.5daf3e46.chunk.js.map": "/test-landing/static/js/787.5daf3e46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca81537f.css",
-    "static/js/main.b1de4bf7.js"
+    "static/css/main.682774ed.css",
+    "static/js/main.77ec5959.js"
   ]
 }
