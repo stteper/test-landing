@@ -1,11 +1,11 @@
 @import '../../../styles/typography';
 
 .rightImageBlock {
-  margin: 28px 0;
+  margin: 56px 0;
   overflow: hidden;
 
   @include media-breakpoint-up(md) {
-    margin: 50px 0;
+    margin: 100px 0;
   }
 }
 
