@@ -1,0 +1,12 @@
+@import 'src/styles/typography';
+@import 'src/styles/media';
+
+.headLine {
+  @include typography-head-1;
+
+  margin: 70px 0 64px;
+
+  @include media-breakpoint-up(md) {
+    margin: 160px 0 120px;
+  }
+}

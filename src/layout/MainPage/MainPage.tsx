@@ -1,11 +1,13 @@
 import React from 'react'
 
-import { Header, Footer, LeftImageBlock, RightImageBlock, Slider } from '../../components'
+import { Header, Footer, LeftImageBlock, RightImageBlock, Slider, HeadLine } from '../../components'
 import { images } from '../../data/imagesList'
 export const MainPage: React.FC = () => {
   return (
     <>
       <Header />
+
+      <HeadLine level={1} text={'ut aliquip ex ea commodo consequat'} />
 
       <LeftImageBlock title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} image={'/images/julia-2.jpg'}>
         <p>
@@ -32,7 +34,11 @@ export const MainPage: React.FC = () => {
         </p>
       </RightImageBlock>
 
+      <HeadLine level={2} text={'Lorem ipsum dolor sit amet'} />
+
       <Slider images={images} />
+
+      <HeadLine level={2} text={'ut aliquip ex ea commodo consequat'} />
 
       <LeftImageBlock title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} image={'/images/julia-1.jpg'}>
         <p>
